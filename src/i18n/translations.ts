@@ -26,6 +26,19 @@ export const translations = {
       rights: 'All rights reserved.',
     },
     home: {
+        whyGreenEnergy: {
+      title: "Why Green Energy Matters",
+      reduceCarbon: "Reduce Carbon Footprint",
+      energyIndependence: "Energy Independence",
+      healthierPlanet: "Healthier Planet"
+    },
+    impact: {
+      title: "Our Global Impact So Far",
+      subtitle: "Through renewable energy projects, we're making a measurable difference for the planet."
+    },
+    milestones: {
+      title: "Our Sustainability Journey"
+    },
       title: 'Ayon Green',
       subtitle: 'Powering Tomorrow with Clean Energy Today',
       description: 'Leading the transition to sustainable energy solutions across Central Asia',
@@ -62,6 +75,23 @@ export const translations = {
       excellenceText: 'Delivering superior quality in every project',
     },
     services: {
+      process: {
+    title: "How It Works",
+    step1: "Free Consultation",
+    step2: "System Design",
+    step3: "Installation",
+    step4: "Activation",
+    step5: "Ongoing Support",
+  },
+  stats: {
+    uptime: "System Uptime",
+    payback: "Year Payback Period",
+    warranty: "Year Warranty",
+    installs: "Successful Installations",
+  },
+  trust: {
+    title: "Trusted by Industry Leaders"
+  },
       title: 'Our Services',
       subtitle: 'Comprehensive Green Energy Solutions',
       consulting: 'Energy Consulting',
@@ -129,6 +159,21 @@ export const translations = {
       excellenceText: 'Обеспечиваем высшее качество в каждом проекте',
     },
     services: {
+      process: {
+  title: "Как это работает",
+  step1: "Бесплатная консультация",
+  step2: "Проектирование",
+  step3: "Установка",
+  step4: "Запуск",
+  step5: "Поддержка",
+},
+stats: {
+  uptime: "Доступность системы",
+  payback: "Лет окупаемости",
+  warranty: "Лет гарантии",
+  installs: "Установок",
+},
+trust: { title: "Доверено лидерами отрасли" },
       title: 'Наши услуги',
       subtitle: 'Комплексные решения в области зеленой энергии',
       consulting: 'Энергетический консалтинг',
@@ -196,7 +241,23 @@ export const translations = {
       excellenceText: 'Сифати олиро дар ҳар лоиҳа таъмин мекунем',
     },
     services: {
-      title: 'Хидматҳои мо',
+
+process: {
+  title: "Чӣ гуна кор мекунад",
+  step1: "Машварати ройгон",
+  step2: "Тарҳрезии система",
+  step3: "Насб",
+  step4: "Фаъолсозӣ",
+  step5: "Дастгирии доимӣ",
+},
+stats: {
+  uptime: "Фаъолияти системаium",
+  payback: "Соли бозпардохт",
+  warranty: "Соли кафолат",
+  installs: "Насбҳои бомуваффақият",
+},
+trust: { title: "Бо пешвоёни соҳа боварӣ дорад" } ,
+     title: 'Хидматҳои мо',
       subtitle: 'Ҳалҳои комплексии энергияи сабз',
       consulting: 'Машварати энергетикӣ',
       consultingDesc: 'Машваратҳои мутахассисона оид ба стратегияҳо ва татбиқи энергияи таҷдидшаванда',

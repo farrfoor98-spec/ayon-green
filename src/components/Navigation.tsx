@@ -31,7 +31,7 @@ export const Navigation: React.FC<NavigationProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-gradient-to-br from-green-400 to-emerald-600 p-2 rounded-lg">
+            <div className="bg-linear-to-br from-green-400 to-emerald-600 p-2 rounded-lg">
               <Leaf className="w-6 h-6 text-white" />
             </div>
             <span className={`text-xl font-bold ${scrollY > 50 ? 'text-gray-900' : 'text-white'}`}>

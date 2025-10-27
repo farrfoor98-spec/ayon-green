@@ -1,28 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Leaf, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Leaf, Mail, Phone, MapPin } from 'lucide-react';
 
 interface FooterProps {
   language: string;
   t: any;
 }
 
-export const Footer: React.FC<FooterProps> = ({ language, t }) => {
+export const Footer: React.FC<FooterProps> = ({  t }) => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="bg-gradient-to-br from-green-400 to-emerald-600 p-2 rounded-lg">
+              <div className="bg-linear-to-br from-green-400 to-emerald-600 p-2 rounded-lg">
                 <Leaf className="w-6 h-6 text-white" />
               </div>
               <span className="text-2xl font-bold">Ayon Green</span>
             </Link>
             <p className="text-gray-400 mb-4 max-w-md">{t.footer.description}</p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="bg-green-600 p-2 rounded-full hover:bg-green-700 transition-colors">
-                <Facebook className="w-5 h-5" />
+                <FacebookIcon className="w-5 h-5" />
               </a>
               <a href="#" className="bg-green-600 p-2 rounded-full hover:bg-green-700 transition-colors">
                 <Twitter className="w-5 h-5" />
@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({ language, t }) => {
               <a href="#" className="bg-green-600 p-2 rounded-full hover:bg-green-700 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>

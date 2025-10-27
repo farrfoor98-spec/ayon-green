@@ -1,10 +1,9 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Home, AlertCircle } from 'lucide-react';
 
 export const NotFoundPage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-600 to-emerald-700 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-green-600 to-emerald-700 px-4">
       <div className="text-center text-white animate-fadeIn">
         <AlertCircle className="w-24 h-24 mx-auto mb-6 animate-bounce" />
         <h1 className="text-6xl font-bold mb-4">404</h1>
