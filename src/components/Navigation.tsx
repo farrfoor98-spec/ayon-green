@@ -35,7 +35,7 @@ export const Navigation: React.FC<NavigationProps> = ({
               <Leaf className="w-6 h-6 text-white" />
             </div>
             <span className={`text-xl font-bold ${scrollY > 50 ? 'text-gray-900' : 'text-white'}`}>
-              Ayon Green
+              Ayon Green Energy
             </span>
           </Link>
 

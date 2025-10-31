@@ -5,7 +5,7 @@ import { Footer } from '../components/Footer';
 import { translations } from '../i18n/translations';
 
 export const AppLayout = () => {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState('ru');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
   const location = useLocation();

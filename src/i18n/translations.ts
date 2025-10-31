@@ -39,7 +39,7 @@ export const translations = {
     milestones: {
       title: "Our Sustainability Journey"
     },
-      title: 'Ayon Green',
+      title: 'Ayon Green Energy',
       subtitle: 'Powering Tomorrow with Clean Energy Today',
       description: 'Leading the transition to sustainable energy solutions across Central Asia',
       cta: 'Get Started',
@@ -60,7 +60,7 @@ export const translations = {
       },
     },
     about: {
-      title: 'About Ayon Green',
+      title: 'About Ayon Green Energy',
       subtitle: 'Pioneering Sustainable Energy Solutions',
       mission: 'Our Mission',
       missionText: 'To accelerate the global transition to clean, renewable energy by delivering innovative and reliable solutions that benefit both our clients and the planet.',
@@ -123,7 +123,7 @@ export const translations = {
       rights: 'Все права защищены.',
     },
     home: {
-      title: 'Айон Грин',
+      title: 'Айон Грин Энерджи',
       subtitle: 'Энергия будущего доступна сегодня',
       description: 'Лидер в области устойчивых энергетических решений в Центральной Азии',
       cta: 'Начать',
@@ -144,7 +144,7 @@ export const translations = {
       },
     },
     about: {
-      title: 'О компании Айон Грин',
+      title: 'О компании Айон Грин Энерджи',
       subtitle: 'Пионеры устойчивых энергетических решений',
       mission: 'Наша миссия',
       missionText: 'Ускорить глобальный переход на чистую возобновляемую энергию путем предоставления инновационных и надежных решений, приносящих пользу как нашим клиентам, так и планете.',
@@ -205,7 +205,7 @@ trust: { title: "Доверено лидерами отрасли" },
       rights: 'Ҳамаи ҳуқуқҳо ҳифз шудаанд.',
     },
     home: {
-      title: 'Айон Грин',
+      title: 'Айон Грин Энерчи',
       subtitle: 'Энергияи фардо имрӯз дастрас аст',
       description: 'Пешвои ҳалҳои устувори энергетикӣ дар Осиёи Марказӣ',
       cta: 'Оғоз кунед',
@@ -226,7 +226,7 @@ trust: { title: "Доверено лидерами отрасли" },
       },
     },
     about: {
-      title: 'Дар бораи Айон Грин',
+      title: 'Дар бораи Айон Грин Энерчи',
       subtitle: 'Пешқадамони ҳалҳои устувори энергетикӣ',
       mission: 'Мақсади мо',
       missionText: 'Тезонидани гузариши ҷаҳонӣ ба энергияи тоза ва таҷдидшаванда тавассути пешниҳоди ҳалҳои навоварона ва боэътимод, ки ба мизоҷони мо ва сайёра манфиат мерасонанд.',
