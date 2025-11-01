@@ -46,7 +46,7 @@ export const Navigation: React.FC<NavigationProps> = ({
                 isActive('/')
                   ? scrollY > 50 ? 'text-green-600' : 'text-gray-700'
                   : scrollY > 50
-                  ? 'text-green-500 hover:text-green-600'
+                  ? 'text-gray-700 hover:text-green-600'
                   : 'text-white hover:text-green-300'
               }`}
             >
