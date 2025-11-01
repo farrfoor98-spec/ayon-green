@@ -44,9 +44,9 @@ export const Navigation: React.FC<NavigationProps> = ({
               to="/"
               className={`font-medium transition-colors ${
                 isActive('/')
-                  ? 'text-green-600'
+                  ? scrollY > 50 ? 'text-green-600' : 'text-gray-700'
                   : scrollY > 50
-                  ? 'text-gray-700 hover:text-green-600'
+                  ? 'text-green-500 hover:text-green-600'
                   : 'text-white hover:text-green-300'
               }`}
             >
@@ -56,7 +56,7 @@ export const Navigation: React.FC<NavigationProps> = ({
               to="/about"
               className={`font-medium transition-colors ${
                 isActive('/about')
-                  ? 'text-green-600'
+                  ? scrollY > 50 ? 'text-green-600' : 'text-gray-700'
                   : scrollY > 50
                   ? 'text-gray-700 hover:text-green-600'
                   : 'text-white hover:text-green-300'
@@ -68,7 +68,7 @@ export const Navigation: React.FC<NavigationProps> = ({
               to="/services"
               className={`font-medium transition-colors ${
                 isActive('/services')
-                  ? 'text-green-600'
+                  ? scrollY > 50 ? 'text-green-600' : 'text-gray-700'
                   : scrollY > 50
                   ? 'text-gray-700 hover:text-green-600'
                   : 'text-white hover:text-green-300'
